@@ -1,0 +1,15 @@
+.body {
+    background-color: lightskyblue;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    
+}
+.docklist{ 
+    background-color: white;
+}
+
+[data-id="1"] {
+    margin-top: 10px;
+}
