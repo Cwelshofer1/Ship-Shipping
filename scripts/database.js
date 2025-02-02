@@ -10,39 +10,38 @@ const database = {
         {
             id: 1,
             name: "SuperHauler",
-            dock: "Superdock"
+            dockId: 2
         },
         {
             id: 2,
             name: "McMegaHauler",
-            dock: "McMegaDock"
+            dockId: 2
         },
         {
-            id:3,
+            id: 3,
             name: "MrGlobalHauler",
-            dock:"MrGlobalDock"
+            dockId: 3
         },
         {
             id: 4,
             name: "HighrollerHauler",
-            dock: "HighrollerDock"
+            dockId: 4
         }
     ],
     shippingShips: [
-        { id: 1, name: "Titan Voyager" },
-        { id: 2, name: "Neptune's Pride" },
-        { id: 3, name: "Ocean Guardian" },
-        { id: 4, name: "Storm Breaker" },
-        { id: 5, name: "Wave Runner" },
-        { id: 6, name: "Blue Horizon" },
-        { id: 7, name: "Arctic Explorer" },
-        { id: 8, name: "Seafarer" },
-        { id: 9, name: "Aqua Titan" },
-        { id: 10, name: "Majestic Mariner" }
+        { id: 1, name: "Titan Voyager", haulerId: 1 },
+        { id: 2, name: "Neptune's Pride", haulerId: 2 },
+        { id: 3, name: "Ocean Guardian", haulerId: 3 },
+        { id: 4, name: "Storm Breaker", haulerId: 4 },
+        { id: 5, name: "Wave Runner", haulerId: 1 },
+        { id: 6, name: "Blue Horizon", haulerId: 2 },
+        { id: 7, name: "Arctic Explorer", haulerId: 3 },
+        { id: 8, name: "Seafarer", haulerId: 4 },
+        { id: 9, name: "Aqua Titan", haulerId: 1 },
+        { id: 10, name: "Majestic Mariner", haulerId: 2}
     ]
 }
 export const getDocks = structuredClone(database.docks)
 console.log(getDocks)
-    // You write the code for copying the array and returning it
 export const getHaulers = structuredClone(database.haulers)
-export const  getShips  = structuredClone(database.shippingShips)
+export const getShips = structuredClone(database.shippingShips)
