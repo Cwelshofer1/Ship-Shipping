@@ -5,12 +5,15 @@ import { ShipList } from "./ShippingShipList.js"
 const mainContainer = document.querySelector("#container")
 
 const shipHTML = ` 
-<h1>Hauling Ships</h1> 
+<h1>Hauling Ships
 ${HaulerList()}
-<h1>Shipping Ships</h1>
+</h1>
+<h1 class="h1">Shipping Ships
 ${ShipList()}
-<h1>Docks</h1>
+</h2>
+<h1>Docks
 ${DockList()}
+</h1>
 
 `
 

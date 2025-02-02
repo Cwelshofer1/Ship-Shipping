@@ -9,7 +9,7 @@ const ships = getShips
 
 export const ShipList = () => {
     
-    let shipsHTML = "<ul>"
+    let shipsHTML = "<ul class=shipHTML>"
 
     for (const ship of ships) {
         shipsHTML += `<li class="docklist" data-haulerid="${ship.haulerId}" data-name="${ship.name}" data-type="ship" >

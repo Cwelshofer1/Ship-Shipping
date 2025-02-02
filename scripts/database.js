@@ -10,22 +10,26 @@ const database = {
         {
             id: 1,
             name: "SuperHauler",
-            dockId: 2
+            dockId: 2,
+            contractId: 1
         },
         {
             id: 2,
             name: "McMegaHauler",
-            dockId: 2
+            dockId: 2,
+            contractid: 2
         },
         {
             id: 3,
             name: "MrGlobalHauler",
-            dockId: 3
+            dockId: 3,
+            contractId: 3
         },
         {
             id: 4,
             name: "HighrollerHauler",
-            dockId: 4
+            dockId: 4,
+            contractId: 4
         }
     ],
     shippingShips: [

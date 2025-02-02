@@ -2,14 +2,23 @@
     background-color: lightskyblue;
 }
 #container {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-auto-flow: column;
+    
     
 }
 .docklist{ 
     background-color: white;
 }
+.shipHTML {
+    height: 400px;
+}
 
-[data-id="1"] {
+.ships {
+  
     
+   
+}
+.h1 {
+    font-size: 20px;
 }
